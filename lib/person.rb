@@ -6,8 +6,13 @@ end
  def name
    @name 
  end
-  def job
+  
+  def job= (person_name)
     @job = person_name
+  end
+  
+  def job
+    @job
   end
 end
 
